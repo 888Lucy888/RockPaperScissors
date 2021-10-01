@@ -59,8 +59,8 @@ function startGame(choice){
     $("#cpuColor").addClass(cpu);
     $("#userColor").addClass(choice);
 
-    $("#user").attr("src","images/icon-"+cpu+".svg");
-    $("#cpu").attr("src","images/icon-scissors.svg");
+    $("#user").attr("src","images/icon-"+choice+".svg");
+    $("#cpu").attr("src","images/icon-"+cpu+".svg");
 
     
     switch(choice){
